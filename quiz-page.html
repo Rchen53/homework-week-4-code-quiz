@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Quiz</title>
+
+    <!--CSS & Bootstrap-->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+    <!--Javascript-->
+    <script defer src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script defer src="assets/js/questions.js"></script>
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Code Quiz</a>
+      </nav>
+    
+    <!--Timer-->
+    <div id ="timer-text">
+        100 seconds left!
+    </div>
+
+    <!--Card-->
+    <div class = "main">
+    <!--Container for question and answers-->
+    <div class ="container">
+        <!--hide class to hide the question and answer before starting-->
+        <div id ='question-container' class="hide"</div>
+            <div id = 'question'>Question</div>
+            <div id = 'answer-buttons' class = 'btn-grid'>
+                <button class = 'btn'>Answer 1</button>
+                <button class = 'btn'>Answer 2</button>
+                <button class = 'btn'>Answer 3</button>
+                <button class = 'btn'>Answer 4</button>
+            </div>
+        <!--Controls for the start and next button-->
+        <div class="controls">
+            <button id='start-btn' class = 'start-btn btn'>Start</button>
+            <button id='next-btn' class = 'next-btn btn hide'>Next</button>
+        </div>
+    </div>
+    </div>
+
+    <!--Inline Script-->
+    <script>
+
+        //create a form that appears after start button is pushed
+
+        //remove start button once it is clicked
+
+
+
+        //1. create variables for questions and answers in an object
+
+
+        //2. create a for loop that runs through each questions and generate answers
+
+
+
+        //3. reference the timer for each a question answered incorrectly, decrement 10 seconds off the timer
+            //use boolean for correct answers and incorrect answers
+        //4. create a function that stops the quiz when count reaches 0 (reference the timer?)
+            //make quiz disappear when timer reachs 0
+        //5. create a go to result page button that takes in score and initials
+
+        //6. allow user to save their results to the localstorage and get result to display
+            //localstorage.setItem, localstorage.getItem
+
+
+    </script>
+
+
+</body>
+</html>
